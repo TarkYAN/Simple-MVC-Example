@@ -19,3 +19,4 @@ const CatSchema = new mongoose.Schema({
 });
 
 const CatModel = mongoose.model('Cat', CatSchema);
+module.exports = CatModel;
